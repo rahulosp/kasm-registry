@@ -2,10 +2,10 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'ATX Defense',
+    description: 'The ATX Defense store for Kasm workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://github.com/rahulosp/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,

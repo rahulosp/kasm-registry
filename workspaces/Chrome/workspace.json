@@ -1,0 +1,35 @@
+{
+  "description": "ATX Defense Chrome is a cross-platform web browser primarily developed by Google.",
+  "docker_registry": "ocr.cmmc.space/docker-local/",
+  "name": "kasmweb/chrome:1.15.0",
+  "friendly_name": "ATX Chrome",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "image_src": "chrome.png",
+  "categories": [
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.15.x"
+  ],
+  "uncompressed_size_mb": 3010
+}

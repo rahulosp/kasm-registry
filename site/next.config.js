@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'ATX Defense',
     description: 'ATX Defense store for Kasm supported workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://rahulosp.github.io/',
+    listUrl: 'https://rahulosp.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
